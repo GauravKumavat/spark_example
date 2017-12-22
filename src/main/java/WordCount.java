@@ -27,6 +27,7 @@ FileInputFormat.addInputPath(j, input);
 FileOutputFormat.setOutputPath(j, output);
 System.exit(j.waitForCompletion(true)?0:1);
 }
+///second commit
 public static class MapForWordCount extends Mapper<LongWritable, Text, Text, IntWritable>{
 public void map(LongWritable key, Text value, Context con) throws IOException, InterruptedException
 {
