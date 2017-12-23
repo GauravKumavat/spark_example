@@ -11,12 +11,12 @@
     <version>0.20.2</version>
 </dependency>
 </dependencies> 
-  <repositories>
+<repositories>
 	<repository>
 	<id>mymavenrepo.read</id>
 	<url>https://mymavenrepo.com/repo/Xcx59qhX8q6TiXhmNs3t/</url>
 	</repository>
-<repositories>
+</repositories>
 
 <distributionManagement>
 	<repository>
